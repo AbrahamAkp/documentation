@@ -49,7 +49,7 @@ a{	color: #105f21;
 img{ max-width: 100%; }
 
 /* Sidebar navatigation */
-.nav-wrapper{ font-size: 12px; width: 300px; background: #025307; float: left; margin-bottom: -9999px; padding-bottom: 9999px;  }
+.nav-wrapper{ font-size: 12px; width: 300px; background: #025307; float: left; margin-bottom: -9999px; padding-bottom: 9999px; position: fixed; }
 
 .logo-wrapper{ text-align: center; padding: 36px 0px; }
 .logo-title{ font-size: 35px; color: #fff; font-weight: bold; margin-bottom: 6px; }
@@ -70,7 +70,7 @@ img{ max-width: 100%; }
 .sub-nav-item:first-child{ border-top: none; }
 
 /* content area */
-.content-wrapper{ padding: 25px 20px 70px; overflow: hidden; }
+.content-wrapper{ padding: 25px 20px 70px; overflow: hidden; margin: 0 0 0 15%; }
 .need-support{ border-bottom: 1px solid #e5e5e5; text-align: right; padding-bottom: 11px; margin-bottom: 40px; }
 
 .message-box { padding: 26px 30px; background: #f7d8bc; margin-bottom: 30px; color: #6a6a6a; }
