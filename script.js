@@ -6,8 +6,8 @@ jQuery(document).ready(function(){
 	nav.find('.main-nav-item').click(function(){
 		var current = jQuery(this).parent();
 
-		if( current.hasClass('active') ) return;
-
+		if( current.hasClass('active') ) {current.removeClass('active');jQuery(this).siblings('.sub-nav').hide();return;}
+		console.log('tested');
 		current.toggleClass('active');
 		jQuery(this).siblings('.sub-nav').hide().slideDown();
 		current.siblings('.active').removeClass('active').children('.sub-nav').show().slideUp();

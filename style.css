@@ -95,6 +95,7 @@ pre{ display: none; }
 .mb-20{margin-bottom:20px;}.mt-20{margin-top:20px;}
 .nav-container-div{width: inherit;height: 100vh;overflow: scroll;position: fixed;}
 .nav-inner-container{display: inline-block;width: 300px;}
+.nav-container-div #nav{padding-bottom: 15px;}
 
 
 
