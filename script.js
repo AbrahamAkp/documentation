@@ -60,7 +60,7 @@ createDynamicHeader('Child Theme & Theme Customization', 'header-6');
 createDynamicHeader('General Setting', 'header-7');
 createDynamicHeader('Dashboard Settings', 'header-8');
 createDynamicHeader('Import Export', 'header-8a');
-createDynamicHeader('Demo-Importer', 'header-8b');
+createDynamicHeader('Shop', 'header-8b');
 createDynamicHeader('Product-settings', 'header-8c');
 createDynamicHeader('Course Settings', 'header-8d');
 createDynamicHeader('Portfolio Settings', 'header-8e');
